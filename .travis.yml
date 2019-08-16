@@ -5,6 +5,7 @@ python:
 install:
   - pip install tox qualifier
 script:
+  - env
   - update_qualifier
   - tox
 deploy:
